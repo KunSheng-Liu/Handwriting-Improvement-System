@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Handwriting_System">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".LetterData"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Handwriting_System"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Feedback"></activity>
+        <activity android:name=".LetterRecognition" />
+        <activity android:name=".ChoseFile" />
+        <activity android:name=".ShowLetter" />
+        <activity android:name=".URL_Connection" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

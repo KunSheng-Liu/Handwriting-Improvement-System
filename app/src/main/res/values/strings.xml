@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HttpURLConnection</string>
+    <string name="url">輸入網址URL</string>
+</resources>
